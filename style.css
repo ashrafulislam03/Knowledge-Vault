@@ -5,9 +5,8 @@
   font-optical-sizing: auto;
 }
 
-body{
+body {
   max-width: 1600px;
-  border: 1px solid black;
 }
 .btn {
   border: none;
@@ -48,7 +47,7 @@ nav .menu a {
 #hero {
   background: url(assets/hero-bg.png);
   background-repeat: no-repeat;
-  
+
   text-align: center;
   margin: 0 auto;
   padding: 115.5px 120px 179px 120px;
@@ -89,8 +88,7 @@ nav .menu a {
   margin-bottom: 34px;
 }
 
-
-.glass-btn{
+.glass-btn {
   border: 1px solid white;
   background: transparent;
   border-radius: 4px;
@@ -101,14 +99,12 @@ nav .menu a {
   margin-left: 16px;
 }
 
-
-#card{
+#card {
   text-align: center;
   height: 448px;
 }
 
-
-#card .card-header h1{
+#card .card-header h1 {
   font-size: 48px;
   font-weight: bold;
   color: #001931;
@@ -116,8 +112,7 @@ nav .menu a {
   margin-bottom: 16px;
 }
 
-
-#card .card-header p{
+#card .card-header p {
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -125,16 +120,15 @@ nav .menu a {
   margin-bottom: 44px;
 }
 
-.cards{
-  max-width: 1,136px;
+.cards {
+  max-width: 1, 136px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
-  
 }
 
-.card-info{
+.card-info {
   padding: 50px 25px;
   height: 300px;
   width: 322px;
@@ -147,69 +141,61 @@ nav .menu a {
   width: 60px;
   height: 60px;
   font-size: 32px;
-  color: #FFFFFF;
-  background-color: #F95555;
+  color: #ffffff;
+  background-color: #f95555;
   border-radius: 50%;
   margin-bottom: 16px;
 }
 
-
-.cards .card-info h3{
+.cards .card-info h3 {
   font-size: 24px;
   color: #001931;
   font-weight: 600;
   margin-bottom: 16px;
 }
 
-
-
-.cards .card-info p{
+.cards .card-info p {
   font-size: 16px;
   color: #627382;
   font-weight: 400;
   margin-bottom: 21.5px;
 }
 
-
-#second{
+#second {
   padding-top: 70px;
 }
 
-#second .second-container{
+#second .second-container {
   width: 1360px;
   max-width: 1360px;
   margin: 0 auto;
 }
 
-
-
-#second .second-container .second-heading{
+#second .second-container .second-heading {
   text-align: center;
 }
 
-
-#second .second-container .second-heading h2{
+#second .second-container .second-heading h2 {
   font-size: 48px;
   color: #001931;
   margin-bottom: 16px;
 }
 
-#second .second-container .second-heading p{
+#second .second-container .second-heading p {
   font-size: 16px;
   color: #627382;
   line-height: 20px;
   margin-bottom: 44px;
 }
 
-
 #second .second-container .second-box {
   display: flex;
   gap: 24px;
 }
 
-.second-box .second-card{
+.second-box .second-card {
   padding: 24px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0 0 8px 0 #00000020;
   height: 300px;
   max-width: 322px;
@@ -221,43 +207,39 @@ nav .menu a {
   padding: 24px;
   border-radius: 1000px;
   max-width: 60px;
-  color: #FFFFFF;
-  background-color: #F95555;
+  color: #ffffff;
+  background-color: #f95555;
   margin-bottom: 16px;
 }
 
-.second-card h3{
+.second-card h3 {
   color: #001931;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 16px;
 }
 
-.second-card p{
+.second-card p {
   color: #627382;
   font-size: 16px;
 }
 
-
-#structure-desing{
+#structure-desing {
   width: 1600px;
-  background-color: #FFFFFF;
-  border: 1px solid;
+  background-color: #ffffff;
 }
 
-
-#structure-desing .structure{
+#structure-desing .structure {
   max-width: 1360px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid;
   gap: 60px;
   padding: 120px;
 }
 
-#structure-desing .structure .content h3{
+#structure-desing .structure .content h3 {
   font-size: 16px;
   color: #469165;
   font-weight: 500;
@@ -265,21 +247,21 @@ nav .menu a {
   line-height: 20px;
 }
 
-#structure-desing .structure .content h1{
+#structure-desing .structure .content h1 {
   font-size: 48px;
   color: #001931;
   font-weight: 700;
   margin-bottom: 16px;
 }
 
-#structure-desing .structure .content p{
+#structure-desing .structure .content p {
   font-size: 16px;
   color: #627382;
   line-height: 20px;
   margin-bottom: 40px;
 }
 
-#structure-desing .structure .content ul{
+#structure-desing .structure .content ul {
   list-style-type: none;
   font-size: 16px;
   color: #001931;
@@ -287,7 +269,80 @@ nav .menu a {
   font-weight: 500;
 }
 
-#structure-desing .structure .content ul li{
+#structure-desing .structure .content ul li {
   margin-bottom: 16px;
+}
 
+#think-more {
+  max-width: 1600px;
+  text-align: center;
+}
+
+#think-more .think-more-container {
+  margin: 0 auto;
+  max-width: 1360px;
+  background-color: #f7f6f2;
+  text-align: center;
+}
+
+#think-more .think-more-container .think-more-heading h1 {
+  padding-top: 80px;
+  color: #001931;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+#think-more .think-more-container .think-more-heading p {
+  color: #627382;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+#think-more .think-more-container .think-more-ending p {
+  margin: 16px;
+  font: 16px;
+  line-height: 24px;
+  color: #627382;
+  padding-bottom: 80px;
+}
+
+footer {
+  background-color: #001931;
+  width: 1600px;
+  height: 370px;
+}
+
+footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1360px;
+  padding: 120px;
+  height: 64px;
+}
+
+footer .footer-container h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+footer .footer-container i {
+  color: #ffffff;
+  font-size: 20px;
+  gap: 16px;
+}
+
+hr{
+  max-width: 1360px;
+  color: #E5E7EB;
+}
+
+footer p {
+  text-align: center;
+  color: #ffffff;
 }
